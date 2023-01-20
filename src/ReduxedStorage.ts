@@ -47,7 +47,6 @@ export default class ReduxedStorage<
     isolated?: boolean, plainActions?: boolean, outdatedTimeout?: number,
     localChangeListener?: ChangeListener, resetState?: any
   ) {
-    console.log('create new ReduxedStorage')
     this.container = container;
     this.storage = storage;
     this.isolated = isolated;
